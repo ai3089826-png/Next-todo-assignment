@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
   },
   "dependencies": {
+    "firebase": "^13.2.0",
+    "firebase-admin": "^14.5.0",
     "next": "16.4.5",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -18,8 +22,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.5",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.5",
+    "firebase-tools": "^15.34.2",
+    "oxfmt": "^0.76.0",
+    "oxlint": "^1.91.0",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
